@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.chandan.model.Job;
 import com.chandan.service.JobService;
 
-@RestController("/")
+@RestController
 public class JobController {
 
 	@Autowired
